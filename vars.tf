@@ -10,7 +10,9 @@ variable "cidr_vpc" {
 
 variable "tags" {
   default = {
-    Name = "fiap-terraform-aula"
+    Name = "fiap-terraform-aula",
+    school = "fiap",
+    Environment = "development"
   }
 }
 
